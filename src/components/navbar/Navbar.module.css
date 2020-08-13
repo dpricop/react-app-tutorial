@@ -1,0 +1,28 @@
+.headerNav {
+    background-color: #cccccc;
+}
+.headerNav ul {
+    text-align: right;
+    background-color: #272c33;
+    height: 50px;
+}
+
+.headerNav li {
+    list-style: none;
+    display: inline-block;
+    height: 100%;
+}
+
+.headerNav a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 1.15em;
+    text-decoration: none;
+    padding: 0px 5px;
+    color: #fff;
+}
+.headerNav .current{
+
+    color: #ff5a0e;
+}
