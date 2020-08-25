@@ -16,7 +16,10 @@ function App(props) {
     <BrowserRouter>
       <Navbar navitems={props.NavbarItemsData} />
       <Route path="/" exact component={Home} />
-      <Route path="/dashboard" component={Dashboard} />
+      <Route
+        path="/dashboard"
+        render={() => <Dashboard options={props.DashboardNavBar} />}
+      />
       <Route
         path="/articles"
         render={() => (

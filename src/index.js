@@ -12,6 +12,13 @@ const NavbarItemsData = [
   { to: "/login", value: "Login" },
 ];
 
+const DashboardNavBar = [
+  { value: "Users" },
+  { value: "Articles" },
+  { value: "Categories" },
+  { value: "Subcategories" },
+];
+
 const ArticlesCategoriesData = [
   { value: "Politics" },
   { value: "Business" },
@@ -38,6 +45,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App
       NavbarItemsData={NavbarItemsData}
+      DashboardNavBar={DashboardNavBar}
       ArticlesCategoriesData={ArticlesCategoriesData}
       ArticlesData={ArticlesData}
       AboutData={AboutData}
