@@ -15,11 +15,35 @@ let store = {
   ],
 
   _ArticlesCategoriesData: [
-    { value: "Politics" },
-    { value: "Business" },
-    { value: "Tech" },
-    { value: "Sports" },
-    { value: "Arts" },
+    {
+      name: "Politics",
+      slug: "politics",
+      children: [
+        { name: "Internal", slug: "internal" },
+        { name: "External", slug: "external" },
+      ],
+    },
+    {
+      name: "Food",
+      slug: "food",
+      children: [
+        { name: "For Carnivore", slug: "carnivore" },
+        { name: "For Pescatarian", slug: "pescatarian" },
+        { name: "For Vegetarian", slug: "vegetarian" },
+        { name: "For Vegan", slug: "vegan" },
+      ],
+    },
+    { name: "Tech", slug: "tech" },
+    {
+      name: "Sports",
+      slug: "sports",
+      children: [
+        { name: "Football", slug: "football" },
+        { name: "Tennis", slug: "tennis" },
+        { name: "Bascketball", slug: "bascketball" },
+      ],
+    },
+    { name: "Arts", slug: "arts" },
   ],
 
   _ArticlesData: [
