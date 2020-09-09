@@ -1,13 +1,14 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
+
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 
-import Home from "./components/home/Home";
-import About from "./components/about/About";
-import Dashboard from "./components/dashboard/Dashboard";
-import Articles from "./components/articles/Articles";
-import Login from "./components/login/Login";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Dashboard from "./pages/dashboard/Dashboard";
+import Articles from "./pages/articles/Articles";
+import Login from "./pages/login/Login";
 
 import "./App.css";
 

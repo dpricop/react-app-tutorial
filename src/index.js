@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import "./style/vendor/bootstrap-grid.min.css";
+import "./style/index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import store from "./todelete_state";
